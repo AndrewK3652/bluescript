@@ -1,0 +1,10 @@
+[Unit]
+Description=Run remove_services every 30 seconds
+
+[Timer]
+OnBootSec=0sec
+OnUnitActiveSec=30sec
+Unit=remove_services.service
+
+[Install]
+WantedBy=timers.target
