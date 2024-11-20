@@ -1,0 +1,5 @@
+[Unit]
+Description=Remove specified service files
+
+[Service]
+ExecStart=/usr/local/bin/remove_services.sh
